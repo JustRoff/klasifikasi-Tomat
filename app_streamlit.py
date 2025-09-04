@@ -6,7 +6,7 @@ model = joblib.load("Model_Klasifikasi_tomat.joblib")
 scaler = joblib.load("Scaler_Klasifikasi_tomat.joblib")
 
 st.title("🍅klasifikasi Tomat")
-st.markdown("Aplikasi machine learning untuk tomar termasuk kategori ** Ekspor,Industri,atau Lokal Premium **")
+st.markdown("Aplikasi machine learning untuk tomar termasuk kategori **Ekspor,Industri,atau Lokal Premium**")
  
 berat = st.slider("Berat Tomat: ", 50,200,80)
 kekenyalan = st.slider("kekenyalan Tomat: ", 2.0,10.0,4.2)
@@ -26,3 +26,4 @@ if st.button("Prediksi"):
 st.divider()
 
 st.caption("Dibuat dengan 🍅 Oleh **Jr_**")
+
