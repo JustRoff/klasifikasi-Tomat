@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("model_klasifikasi_tomat.joblib")
-scaler = joblib.load("scaler_klasifikasi_tomat.joblib")
+model = joblib.load("Model_Klasifikasi_tomat.joblib")
+scaler = joblib.load("Scaler_Klasifikasi_tomat.joblib")
 
 st.title("🍅klasifikasi Tomat")
 st.markdown("Aplikasi machine learning untuk tomar termasuk kategori ** Ekspor,Industri,atau Lokal Premium **")
@@ -24,4 +24,5 @@ if st.button("Prediksi"):
     st.balloons()
 
 st.divider()
+
 st.caption("Dibuat dengan 🍅 Oleh **Jr_**")
